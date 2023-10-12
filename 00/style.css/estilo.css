@@ -1,0 +1,48 @@
+* {padding: 0;
+   margin: 0;}
+   html {font-size: 16px;}
+* {background-color:rgb(215, 211, 211) ;}
+   
+   /*--------Titulo de todas las paginas*/
+h1{color: crimson;
+text-align: center;
+font-size: 7rem;
+text-decoration: underline ;
+text-decoration-thickness: 4px;
+padding: 4rem 0px 2rem 0px;
+}
+
+
+/*----------Barra de navegacion*/
+header nav ul li{display: inline-block;
+    list-style-type: none;
+    background-color: inherit;
+    padding: 0px 20px}
+
+.Barra {display: flex;
+justify-content: space-between;
+height: 96px;
+background-color: rgb(134, 132, 132);
+align-items: center;
+}
+
+
+
+
+/*------------footer*/
+
+.footer 
+
+{ 
+padding-bottom: 0px;
+background-color:rgb(134, 132, 132) ;
+height: 96px;
+padding: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+/*------------Index Main*/
+#IndexMain {text-align: center;}
